@@ -1,13 +1,13 @@
 {
   "name": "voxelizer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Voxelization for 3D models",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
     "test": "jest",
     "coverage": "jest --coverage",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",

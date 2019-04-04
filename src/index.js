@@ -7,13 +7,7 @@ class Voxelizer {
 
   constructor() {
     this.objectShape = [];
-    this.seeker;
-    this.direction;
-
-    this.scene = new THREE.Scene();
-    // instantiate a loader
-    this.loader = new THREE.OBJLoader();
-    this.loading = false;
+    this.loader = new THREE.OBJLoader(); // instantiate a loader
   }
 
   sample(object, resolution = 10) {
