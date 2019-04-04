@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src -d lib",
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
