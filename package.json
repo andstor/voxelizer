@@ -1,0 +1,45 @@
+{
+  "name": "voxelizer",
+  "version": "0.1.0",
+  "description": "Voxelization for 3D models",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andstor/voxelizer.git"
+  },
+  "keywords": [
+    "voxelization",
+    "voxel"
+  ],
+  "author": {
+    "name": "André Storhaug",
+    "email": "andr3.storhaug@gmail.com",
+    "url": "https://github.com/andstor"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andstor/voxelizer/issues"
+  },
+  "files": [
+    "/lib",
+    "/src"
+  ],
+  "homepage": "https://github.com/andstor/voxelizer",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-jest": "^24.6.0",
+    "coveralls": "^3.0.3",
+    "jest": "^24.6.0"
+  },
+  "dependencies": {
+    "three": "^0.103.0",
+    "three-obj-loader": "^1.1.3"
+  }
+}
