@@ -1,4 +1,4 @@
-import {Voxelizer} from './../src/index';
+import Voxelizer from './../src/index';
 
 let voxelizer = null;
 
