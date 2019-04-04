@@ -99,7 +99,8 @@ class Voxelizer {
   }
 
   handleIntersects(intersects) {
-    let treshold = 0.000000001; // TODO implement a treshold to prevent multiple readings in face corner.
+    let treshold = 0.000000001; // TODO implement a treshold to prevent
+                                // multiple readings in face corner.
 
     let matrix = [];
     let numSteps = this.depth / this.step;
