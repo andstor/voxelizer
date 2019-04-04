@@ -32,13 +32,13 @@ new Voxelizer()
 ### Example
 ```js
 const Voxelizer = require('voxelizer');
-const vox = new Voxelizer(options);
+const voxelizer = new Voxelizer();
 
 let path3DModel = './path/to/file.obj';
 
-vox.loadOBJ(path3DModel).then((object) => {
+voxelizer.loadOBJ(path3DModel).then((object) => {
   const resolution = 10;
-  let matrix = vox.sample(object, resolution);
+  let matrix = voxelizer.sample(object, resolution);
   console.log(matrix);
 });
 
@@ -50,7 +50,8 @@ vox.loadOBJ(path3DModel).then((object) => {
 [⬆ back to top](#voxelizer)
 
 ## API
-The Voxelizer class also support multiple optional configurations. These should be passed as an object to the Voxelizer class object. If no manual configurations are set, default options are used.
+
+### Voxelizer()
 
 ### voxelizer.loadOBJ(path)
 - **path**:
@@ -66,7 +67,7 @@ Load  3D model.
 ### voxelizer.sample(object, resolution)
 - **object**:
   - Type: `Object`
-  - The 3D model to be sampled. Needs to be an [Object3D](https://threejs.org/docs/#api/en/core/Object3D).
+  - The 3D model to be sampled. Needs to be an [Object3D](https://threejs.org/docs/#api/en/core/Object3D) object.
 
 - **resolution**:
   - Type: `Number`
@@ -92,7 +93,6 @@ Enter the Voxelizer directory and run the build script:
 ```bash
 npm run build
 ```
-
 
 ## License
 
