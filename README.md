@@ -11,6 +11,7 @@ Voxelizer is a JavaScript library for conducting voxelization of 3D models.
 ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
+  * [API](#api)
   * [3D file format support](#3d-file-format-support)
   * [Build instrictions](#build-instructions)
   * [License](#license)
@@ -44,11 +45,6 @@ voxelizer.loadOBJ(path3DModel).then((object) => {
 
 ```
 
-## 3D file format support
-* OBJ
-
-[⬆ back to top](#voxelizer)
-
 ## API
 
 ### Voxelizer()
@@ -80,6 +76,11 @@ Load  3D model.
 
 Voxelizes a 3D model, producing a 3D array representing the 3D model.
 Values of `1` represents the object's presence in space, while `0`'s represents the object's non-existence in space.
+
+## 3D file format support
+* OBJ
+
+[⬆ back to top](#voxelizer)
 
 ## Build instructions
 
