@@ -1,5 +1,9 @@
 # Voxelizer
 
+<a href="https://github.com/andstor/voxelizer"><img
+  src="media/voxel.png" alt="Normalize Logo"
+  width="80" height="auto" align="right"></a>
+  
 [![Build Status](https://travis-ci.org/andstor/voxelizer.svg?branch=master)](https://travis-ci.org/andstor/voxelizer)
 [![Coverage Status](https://coveralls.io/repos/github/andstor/voxelizer/badge.svg?branch=master)](https://coveralls.io/github/andstor/voxelizer?branch=master)
 [![npm version](http://img.shields.io/npm/v/voxelizer.svg?style=flat)](https://npmjs.org/package/voxelizer "View this project on npm")
