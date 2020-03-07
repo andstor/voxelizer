@@ -21,8 +21,8 @@ jobs:
           template_name: minami
           front_page: README.md
       
-     # - name: Include Examples
-     #   run: mv ./examples ./out/
+      - name: Include Examples
+        run: mv ./examples ./out/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
