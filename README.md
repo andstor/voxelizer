@@ -4,9 +4,9 @@
   src="media/voxel.png" alt="Normalize Logo"
   width="100" height="auto" align="right"></a>
   
-[![Build Status](https://travis-ci.org/andstor/voxelizer.svg?branch=master)](https://travis-ci.org/andstor/voxelizer)
-[![Coverage Status](https://coveralls.io/repos/github/andstor/voxelizer/badge.svg?branch=master)](https://coveralls.io/github/andstor/voxelizer?branch=master)
 [![npm version](http://img.shields.io/npm/v/voxelizer.svg?style=flat)](https://npmjs.org/package/voxelizer "View this project on npm")
+![Build](https://github.com/andstor/voxelizer/workflows/Build/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/andstor/voxelizer/badge.svg?branch=master)](https://coveralls.io/github/andstor/voxelizer?branch=master)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/andstor/voxelizer.svg?)](https://lgtm.com/projects/g/andstor/voxelizer/context:javascript)
 
 Voxelizer is a JavaScript library for conducting voxelization of 3D models.

@@ -1,0 +1,36 @@
+name: Build
+
+on: ["push", "pull_request"]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v1
+
+    - name: Set up Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+
+    - name: Test
+      run: |
+        npm ci
+        npm run build --if-present
+        npm run coverage || npm test
+
+    - name: File existence
+      id: check_files
+      uses: andstor/file-existence-action@v1
+      with:
+        files: ./coverage/lcov.info
+
+    - name: Coveralls
+      if: steps.check_files.outputs.files_exists == 'true'
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        
