@@ -10,6 +10,7 @@ export {
 export {
   Algorithm,
   ColorableAlgorithm,
+  RaycastAlgorithm,
   AlgorithmFactory
 } from "./algorithms";
 
