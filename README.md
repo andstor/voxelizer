@@ -96,7 +96,7 @@ exporter.parse(data, function (xml) {
 ## Import support
 Voxelizer is able to load any mesh created with three.js. By doing so, one can make use of the around 40 📄 file loaders provided by three.js, including support for the popular [glTF](https://threejs.org/examples/?q=loader#webgl_loader_gltf), [OBJ](https://threejs.org/examples/?q=loader#webgl_loader_obj_mtl) and [STL](https://threejs.org/examples/?q=loader#webgl_loader_stl) formats. 
 
-three.js classifies these as [loaders](https://github.com/mrdoob/three.js/tree/master/examples/jsm/loaders) as *"examples"*. Please see the [three.js documentation](https://threejs.org/docs/index.html#manual/en/introduction/Loading-3D-models) for how to use these. 
+three.js classifies these [loaders](https://github.com/mrdoob/three.js/tree/master/examples/jsm/loaders) as *"examples"*. Please see the [three.js documentation](https://threejs.org/docs/index.html#manual/en/introduction/Loading-3D-models) for how to use these. 
 
 Following is an example of how to load and voxelize a glTF file:
 
