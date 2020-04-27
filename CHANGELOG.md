@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
 
+## [1.0.0] - 2020-04-28
 ### Added
 - Migration guide
 - Examples for demonstrating and testing purposes
@@ -36,7 +37,8 @@ and this project adheres to [Semantic Versioning](https://semver.org).
 
 ## 0.1.0 - 2019-04-04
 
-[Unreleased]: https://github.com/andstor/voxelizer/compare/v0.1.3...HEAD
+[Unreleased]: https://github.com/andstor/voxelizer/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/andstor/three-voxel-loader/compare/v0.1.3...v1.0.0
 [0.1.3]: https://github.com/andstor/three-voxel-loader/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/andstor/three-voxel-loader/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/andstor/three-voxel-loader/compare/v0.1.0...v0.1.1
