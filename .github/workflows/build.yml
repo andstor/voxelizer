@@ -22,15 +22,22 @@ jobs:
         npm run build --if-present
         npm run coverage || npm test
 
-    - name: File existence
+    - name: Coverage file existence
       id: check_files
       uses: andstor/file-existence-action@v1
       with:
         files: ./coverage/lcov.info
+        
+    - name: "Read coverage file contents"
+      if: steps.check_files.outputs.files_exists == 'true'
+      id: coverage_file
+      uses: andstor/file-reader-action@v1
+      with:
+        path: ./coverage/lcov.info
 
     - name: Coveralls
-      if: steps.check_files.outputs.files_exists == 'true'
+      if: steps.check_files.outputs.files_exists == 'true' &&
+          steps.coverage_file.outputs.contents != ''
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        
