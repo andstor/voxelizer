@@ -15,7 +15,8 @@ Voxelizer is a JavaScript voxelization engine for conducting voxelization of 3D 
 
 [Examples](https://andstor.github.io/voxelizer/examples/) - 
 [Documentation](https://andstor.github.io/voxelizer/) - 
-[Wiki](https://github.com/andstor/voxelizer/wiki)
+[Wiki](https://github.com/andstor/voxelizer/wiki) - 
+[Migration](https://github.com/andstor/voxelizer/wiki/Migration)
 
 ## Table of Contents
   * [Install](#install)
