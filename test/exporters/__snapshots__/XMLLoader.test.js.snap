@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XML export of voxels 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"yes\\"?>
+<content>
+  <dimensions>
+    <width>2</width>
+    <height>2</height>
+    <depth>2</depth>
+  </dimensions>
+  <voxels>
+    <voxel>
+      <position>
+        <x>0</x>
+        <y>0</y>
+        <z>1</z>
+      </position>
+    </voxel>
+    <voxel>
+      <position>
+        <x>0</x>
+        <y>1</y>
+        <z>1</z>
+      </position>
+    </voxel>
+    <voxel>
+      <position>
+        <x>1</x>
+        <y>0</y>
+        <z>1</z>
+      </position>
+    </voxel>
+    <voxel>
+      <position>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+      </position>
+    </voxel>
+  </voxels>
+</content>"
+`;
+
+exports[`XML export of voxels and colors 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"yes\\"?>
+<content>
+  <dimensions>
+    <width>2</width>
+    <height>2</height>
+    <depth>2</depth>
+  </dimensions>
+  <voxels>
+    <voxel>
+      <position>
+        <x>0</x>
+        <y>0</y>
+        <z>1</z>
+      </position>
+      <color>
+        <r>3</r>
+        <g>4</g>
+        <b>5</b>
+      </color>
+    </voxel>
+    <voxel>
+      <position>
+        <x>0</x>
+        <y>1</y>
+        <z>1</z>
+      </position>
+      <color>
+        <r>9</r>
+        <g>10</g>
+        <b>11</b>
+      </color>
+    </voxel>
+    <voxel>
+      <position>
+        <x>1</x>
+        <y>0</y>
+        <z>1</z>
+      </position>
+      <color>
+        <r>15</r>
+        <g>16</g>
+        <b>17</b>
+      </color>
+    </voxel>
+    <voxel>
+      <position>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+      </position>
+      <color>
+        <r>21</r>
+        <g>22</g>
+        <b>23</b>
+      </color>
+    </voxel>
+  </voxels>
+</content>"
+`;
