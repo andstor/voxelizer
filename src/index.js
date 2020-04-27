@@ -23,5 +23,11 @@ export {
   Volume
 } from "./volume";
 
+export {
+  Exporter,
+  XMLExporter,
+  BINVOXExporter,
+  ArrayExporter
+} from "./exporters";
 
 export * from "./utils"
