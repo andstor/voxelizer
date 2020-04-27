@@ -1,6 +1,5 @@
 <p align=center>
-	<img width="240" src="
-  https://raw.githubusercontent.com/andstor/voxelizer/master/media/voxel.svg" alt="Voxelizer Logo">
+	<img width="240" src="https://raw.githubusercontent.com/andstor/voxelizer/master/media/voxel.svg" alt="Voxelizer Logo">
 </p>
 <h1 align="center">Voxelizer</h1>
 
