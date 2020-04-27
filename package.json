@@ -7,8 +7,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "test": "jest",
-    "coverage": "jest --coverage",
+    "test": "jest --passWithNoTests",
+    "coverage": "npm test -- --coverage --coverageReporters=text-lcov",
     "prepare": "npm run build",
     "example": "browser-sync start --server --files 'examples' 'lib' --startPath ''examples/index.html"
   },
