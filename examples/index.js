@@ -166,7 +166,7 @@ function init() {
     params.size = d;
     loader.setVoxelSize(params.size);
     _toggleLoading(true);
-    mesh = loader.generateMesh(loader.octree);
+    let mesh = loader.generateMesh(loader.octree);
     updateScene(mesh);
   });
 
@@ -226,7 +226,7 @@ function init() {
     loader.setLOD(d);
     _toggleLoading(true);
     loader.update().then((octree) => {
-      mesh = loader.generateMesh(octree);
+      let mesh = loader.generateMesh(octree);
       updateScene(mesh);
     });
   });
@@ -235,7 +235,7 @@ function init() {
     loader.setLOD(undefined, d);
     _toggleLoading(true);
     loader.update().then((octree) => {
-      mesh = loader.generateMesh(octree);
+      let mesh = loader.generateMesh(octree);
       updateScene(mesh);
     });
   });
@@ -319,7 +319,7 @@ function init() {
       exporter.parse(volume, ([voxels, colors]) => {
 
         loader.parseData({ voxels, colors }, 'array').then(voxels => {
-          mesh = loader.generateMesh(voxels);
+          let mesh = loader.generateMesh(voxels);
           resolve(mesh);
         });
       })
