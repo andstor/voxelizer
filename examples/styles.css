@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color: #efefef;
+  line-height: 150%;
+  margin: 0;
+}
+
+a {
+  color: grey;
+  transition: color 0.2s;
+}
+
+a:hover, a:active {
+  color: white;
+}
+
+canvas {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.info {
+  color: rgb(90, 95, 90);
+  font-size: 75%;
+  left: 5px;
+  position: fixed;
+  top: 5px;
+}
+
+.github {
+  bottom: 15px;
+  left: 15px;
+  opacity: 0.075;
+  position: fixed;
+  transition: opacity 0.2s;
+  width: 32px;
+}
+
+.github:active, .github:hover {
+  opacity: 0.25;
+}
+
+#loader {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgba(230, 230, 230, 0.6);
+}
+
+#loader p {
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  color: #000000;
+  font-size: 1.25em;
+}
