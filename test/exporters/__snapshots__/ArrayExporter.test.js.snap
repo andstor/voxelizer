@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`array export of empty volume 1`] = `
+Array [
+  null,
+  null,
+]
+`;
+
+exports[`array export of voxels 1`] = `
+Array [
+  Array [
+    Array [
+      Array [
+        0,
+        1,
+      ],
+      Array [
+        0,
+        1,
+      ],
+    ],
+    Array [
+      Array [
+        0,
+        1,
+      ],
+      Array [
+        0,
+        1,
+      ],
+    ],
+  ],
+  null,
+]
+`;
+
+exports[`array export of voxels and colors 1`] = `
+Array [
+  Array [
+    Array [
+      Array [
+        0,
+        1,
+      ],
+      Array [
+        0,
+        1,
+      ],
+    ],
+    Array [
+      Array [
+        0,
+        1,
+      ],
+      Array [
+        0,
+        1,
+      ],
+    ],
+  ],
+  Array [
+    Array [
+      Array [
+        Array [
+          0,
+          1,
+          2,
+        ],
+        Array [
+          3,
+          4,
+          5,
+        ],
+      ],
+      Array [
+        Array [
+          6,
+          7,
+          8,
+        ],
+        Array [
+          9,
+          10,
+          11,
+        ],
+      ],
+    ],
+    Array [
+      Array [
+        Array [
+          12,
+          13,
+          14,
+        ],
+        Array [
+          15,
+          16,
+          17,
+        ],
+      ],
+      Array [
+        Array [
+          18,
+          19,
+          20,
+        ],
+        Array [
+          21,
+          22,
+          23,
+        ],
+      ],
+    ],
+  ],
+]
+`;
