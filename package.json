@@ -1,6 +1,6 @@
 {
   "name": "voxelizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Voxelization for 3D models",
   "main": "lib/voxelizer.js",
   "module": "src/index.js",
