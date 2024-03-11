@@ -1,4 +1,5 @@
 const webpack = require("webpack");
+const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
 const path = require("path");
 const mode = 'production';
 
@@ -37,6 +38,7 @@ let umdConfig = {
       ]
     },
     plugins: [
+        new NodePolyfillPlugin(),
         new webpack.BannerPlugin({banner: banner}),
     ],
     externals: {
