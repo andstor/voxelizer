@@ -3006,13 +3006,13 @@ Volume {
       0,
     ],
     "offset": 0,
-    "shape": Array [
+    "shape": [
       9,
       10,
       5,
       3,
     ],
-    "stride": Array [
+    "stride": [
       150,
       15,
       3,
@@ -4023,12 +4023,12 @@ Volume {
       0,
     ],
     "offset": 0,
-    "shape": Array [
+    "shape": [
       9,
       10,
       5,
     ],
-    "stride": Array [
+    "stride": [
       50,
       5,
       1,
