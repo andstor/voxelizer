@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import { TextureHandler } from "../../src";
 import { generateCanvasImage } from "../utils";
 

@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import { ColorExtractor } from "../../src";
 import { getSimpleMesh, getTexturedMesh } from "../utils";
 
@@ -7,6 +11,7 @@ test('instanciate', () => {
   expect(extractor.object).toEqual(object);
 });
 
+
 test('register texture', () => {
   let object = getTexturedMesh('blue');
   let extractor = new ColorExtractor(object);
@@ -14,6 +19,7 @@ test('register texture', () => {
   let objectDataURL = object.material.map.image.toDataURL()
   expect(textures[0][0].toDataURL()).toEqual(objectDataURL);
 });
+
 
 test('register multiple textures', () => {
   let object2 = getTexturedMesh('red');
