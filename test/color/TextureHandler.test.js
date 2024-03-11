@@ -27,5 +27,5 @@ test('get texel color', () => {
 
   let uv = { x: 0.5, y: 0.5 };
   let color = textureHandler.getTexelColor(uv, uuid);
-  expect(color).toEqual({ r: 0, g: 1, b: 0 });
+  expect(color).toEqual({ isColor: true, r: 0, g: 1, b: 0 });
 });
