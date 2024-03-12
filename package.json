@@ -12,6 +12,7 @@
     "prepare": "npm run build",
     "example": "browser-sync start --server --files 'examples' 'lib' --startPath ''examples/index.html"
   },
+  "exports": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/andstor/voxelizer.git"

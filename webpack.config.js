@@ -22,9 +22,11 @@ let umdConfig = {
     output: {
         path: path.resolve(__dirname, "lib"),
         filename: "voxelizer.js",
-        library: "Voxelizer",
-        libraryTarget: 'umd',
-        globalObject: 'this'
+        globalObject: 'this',
+        library: {
+            name: 'Voxelizer',
+            type: 'umd',
+        },
     },
     module: {
       rules: [
@@ -32,7 +34,7 @@ let umdConfig = {
               test: /\.js$/,
               exclude: /(node_modules)/,
               use: {
-                  loader: "babel-loader"
+                  loader: "babel-loader",
               }
           }
       ]
