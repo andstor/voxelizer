@@ -1,4 +1,4 @@
 // jest.config.js
-module.exports = {
+export default {
   setupFiles: ['./test/setupEnv.js']
 }
