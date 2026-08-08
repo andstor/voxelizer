@@ -75,7 +75,6 @@ export class RaycastAlgorithm extends ColorableAlgorithm {
         child.material.side = DoubleSide;
         child.geometry.computeBoundingSphere();
         child.geometry.computeBoundingBox();
-        child.geometry.computeFaceNormals();
         child.geometry.boundsTree = new MeshBVH(child.geometry);
       }
     });
